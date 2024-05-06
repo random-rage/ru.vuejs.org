@@ -3,11 +3,11 @@
   <title>Vue.js</title>
   
   
-  <link href="https://random-rage.github.io/atom.xml" rel="self"/>
+  <link href="https://random-rage.github.io/ru.vuejs.org/atom.xml" rel="self"/>
   
-  <link href="https://random-rage.github.io/"/>
+  <link href="https://random-rage.github.io/ru.vuejs.org/"/>
   <updated>2024-05-06T12:04:43.448Z</updated>
-  <id>https://random-rage.github.io/</id>
+  <id>https://random-rage.github.io/ru.vuejs.org/</id>
   
   <author>
     <name>Evan You</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Announcing Vue.js 2.0</title>
-    <link href="https://random-rage.github.io/2016/04/27/announcing-2.0/"/>
-    <id>https://random-rage.github.io/2016/04/27/announcing-2.0/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2016/04/27/announcing-2.0/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2016/04/27/announcing-2.0/</id>
     <published>2016-04-27T10:33:00.000Z</published>
     <updated>2024-05-06T12:04:43.448Z</updated>
     
@@ -35,8 +35,8 @@
   
   <entry>
     <title>March 2016 Update</title>
-    <link href="https://random-rage.github.io/2016/03/14/march-update/"/>
-    <id>https://random-rage.github.io/2016/03/14/march-update/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2016/03/14/march-update/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2016/03/14/march-update/</id>
     <published>2016-03-14T15:45:00.000Z</published>
     <updated>2024-05-06T12:04:43.448Z</updated>
     
@@ -52,8 +52,8 @@
   
   <entry>
     <title>Common Beginner Gotchas</title>
-    <link href="https://random-rage.github.io/2016/02/06/common-gotchas/"/>
-    <id>https://random-rage.github.io/2016/02/06/common-gotchas/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2016/02/06/common-gotchas/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2016/02/06/common-gotchas/</id>
     <published>2016-02-06T07:00:00.000Z</published>
     <updated>2024-05-06T12:04:43.448Z</updated>
     
@@ -69,8 +69,8 @@
   
   <entry>
     <title>Announcing vue-cli</title>
-    <link href="https://random-rage.github.io/2015/12/28/vue-cli/"/>
-    <id>https://random-rage.github.io/2015/12/28/vue-cli/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2015/12/28/vue-cli/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2015/12/28/vue-cli/</id>
     <published>2015-12-27T21:00:00.000Z</published>
     <updated>2024-05-06T12:04:43.449Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>Why Vue.js doesn&#39;t support templateURL</title>
-    <link href="https://random-rage.github.io/2015/10/28/why-no-template-url/"/>
-    <id>https://random-rage.github.io/2015/10/28/why-no-template-url/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2015/10/28/why-no-template-url/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2015/10/28/why-no-template-url/</id>
     <published>2015-10-28T07:56:00.000Z</published>
     <updated>2024-05-06T12:04:43.449Z</updated>
     
@@ -103,8 +103,8 @@
   
   <entry>
     <title>Vue.js 1.0.0 Released</title>
-    <link href="https://random-rage.github.io/2015/10/26/1.0.0-release/"/>
-    <id>https://random-rage.github.io/2015/10/26/1.0.0-release/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2015/10/26/1.0.0-release/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2015/10/26/1.0.0-release/</id>
     <published>2015-10-26T07:00:00.000Z</published>
     <updated>2024-05-06T12:04:43.448Z</updated>
     
@@ -123,8 +123,8 @@
   
   <entry>
     <title>Vue.js 0.12 released!</title>
-    <link href="https://random-rage.github.io/2015/06/11/012-release/"/>
-    <id>https://random-rage.github.io/2015/06/11/012-release/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2015/06/11/012-release/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2015/06/11/012-release/</id>
     <published>2015-06-11T14:37:30.000Z</published>
     <updated>2024-05-06T12:04:43.448Z</updated>
     
@@ -141,8 +141,8 @@
   
   <entry>
     <title>0.11 Component Tips</title>
-    <link href="https://random-rage.github.io/2014/12/08/011-component/"/>
-    <id>https://random-rage.github.io/2014/12/08/011-component/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2014/12/08/011-component/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2014/12/08/011-component/</id>
     <published>2014-12-08T12:02:14.000Z</published>
     <updated>2024-05-06T12:04:43.447Z</updated>
     
@@ -160,8 +160,8 @@
   
   <entry>
     <title>Vue.js 0.11 released!</title>
-    <link href="https://random-rage.github.io/2014/11/09/vue-011-release/"/>
-    <id>https://random-rage.github.io/2014/11/09/vue-011-release/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2014/11/09/vue-011-release/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2014/11/09/vue-011-release/</id>
     <published>2014-11-09T06:23:40.000Z</published>
     <updated>2024-05-06T12:04:43.448Z</updated>
     
@@ -177,8 +177,8 @@
   
   <entry>
     <title>Vue.js 0.10.6, and what&#39;s next</title>
-    <link href="https://random-rage.github.io/2014/07/29/vue-next/"/>
-    <id>https://random-rage.github.io/2014/07/29/vue-next/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2014/07/29/vue-next/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2014/07/29/vue-next/</id>
     <published>2014-07-28T20:04:55.000Z</published>
     <updated>2024-05-06T12:04:43.449Z</updated>
     
@@ -194,8 +194,8 @@
   
   <entry>
     <title>Vue.js 0.10 is here!</title>
-    <link href="https://random-rage.github.io/2014/03/22/vuejs-010-release/"/>
-    <id>https://random-rage.github.io/2014/03/22/vuejs-010-release/</id>
+    <link href="https://random-rage.github.io/ru.vuejs.org/2014/03/22/vuejs-010-release/"/>
+    <id>https://random-rage.github.io/ru.vuejs.org/2014/03/22/vuejs-010-release/</id>
     <published>2014-03-22T15:00:13.000Z</published>
     <updated>2024-05-06T12:04:43.449Z</updated>
     
