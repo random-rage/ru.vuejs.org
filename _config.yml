@@ -12,8 +12,8 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://vuejs.org
-root: /
+url: https://random-rage.github.io/ru.vuejs.org
+root: /ru.vuejs.org/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -35,7 +35,10 @@ max_open_file: 100
 multi_thread: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 highlight:
   enable: true
   line_number: false
@@ -145,7 +148,7 @@ markdown:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:translation-gang/ru.vuejs.org.git
+  repository: git@github.com:random-rage/ru.vuejs.org.git
 
 feed:
   type: atom
