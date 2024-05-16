@@ -48,15 +48,15 @@ const app = new Vue({
 
 Введите что-нибудь в форму и затем обновите эту страницу. Вы заметите, что введённое вами ранее значение будет показано автоматически. Не забывайте, что ваш браузер предоставляет замечательные инструменты разработчика для просмотра хранилища на стороне клиента. Ниже пример в Firefox:
 
-![Storage devtools in Firefox](/images/devtools-storage.png)
+![Storage devtools in Firefox](/ru.vuejs.org/images/devtools-storage.png)
 
 И вот пример в Chrome:
 
-![Storage devtools in Chrome](/images/devtools-storage-chrome.png)
+![Storage devtools in Chrome](/ru.vuejs.org/images/devtools-storage-chrome.png)
 
 И наконец пример в Microsoft Edge. Обратите внимание, что вы можете найти сохранённые значения приложения на вкладке «Отладчик».
 
-![Storage devtools in Edge](/images/devtools-storage-edge.png)
+![Storage devtools in Edge](/ru.vuejs.org/images/devtools-storage-edge.png)
 
 <p class="tip">Небольшая заметка: инструменты разработчика также предоставляют возможность удалять значения из хранилища. Это может быть очень полезным при тестировании.</p>
 

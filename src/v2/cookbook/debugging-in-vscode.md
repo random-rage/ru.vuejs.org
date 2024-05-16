@@ -45,7 +45,7 @@ module.exports = {
 
 Нажмите на значок отладки в панели действий (узкая боковая панель слева) чтобы открыть представление «Отладка», затем нажмите на значок шестерёнки, чтобы настроить файл launch.json, выберите **Chrome/Firefox: Launch** в качестве окружения. Замените содержимое сгенерированного launch.json указанной ниже конфигурацией:
 
-![Добавление конфигурации Chrome](/images/config_add.png)
+![Добавление конфигурации Chrome](/ru.vuejs.org/images/config_add.png)
 
 ```json
 {
@@ -78,7 +78,7 @@ module.exports = {
 
 1.  Установите точку останова в файле **src/components/HelloWorld.vue** на `строке 90` где функция `data` возвращает строку.
 
-  ![Breakpoint Renderer](/images/breakpoint_set.png)
+  ![Breakpoint Renderer](/ru.vuejs.org/images/breakpoint_set.png)
 
 2.  Откройте свою любимую консоль в корневом каталоге приложения и запустите его с помощью Vue CLI:
 
@@ -90,7 +90,7 @@ module.exports = {
 
 4.  Ваша точка останова должна быть достигнута, когда новый экземпляр браузера откроет `http://localhost:8080`.
 
-  ![Breakpoint Hit](/images/breakpoint_hit.png)
+  ![Breakpoint Hit](/ru.vuejs.org/images/breakpoint_hit.png)
 
 ## Альтернативные варианты
 
@@ -98,7 +98,7 @@ module.exports = {
 
 Существуют и другие методы отладки, различающиеся по сложности. Самый популярный и простой из них — использовать Vue.js devtools [для Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) и [для Firefox](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/). Главное из преимуществ работы с инструментами разработки (devtools) состоит в том, что они позволяют вам в реальном времени менять свойства данных и сразу видеть изменения на странице. Другим важным преимуществом является возможность отладки во времени (time travel debugging) для Vuex.
 
-![Devtools Timetravel Debugger](/images/devtools-timetravel.gif)
+![Devtools Timetravel Debugger](/ru.vuejs.org/images/devtools-timetravel.gif)
 
 <p class="tip">Обратите внимание, если на странице используется production/минифицированная сборка Vue.js (как например, стандартная ссылка на CDN), то проверка инструментов разработки по умолчанию отключена и поэтому панель Vue не будет отображаться в инструментах разработчика. Если вы переключитесь на не минифицированную версию, вам может потребоваться обновить страницу, чтобы увидеть изменения.</p>
 

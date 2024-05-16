@@ -35,10 +35,6 @@ max_open_file: 100
 multi_thread: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
 highlight:
   enable: true
   line_number: false
