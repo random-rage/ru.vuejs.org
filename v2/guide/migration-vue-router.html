@@ -1205,6 +1205,7 @@
           // search index defaults to v2
           var match = window.location.pathname.match(/^\/(v\d+)/)
           var version = match ? match[1] : 'v2'
+          console.log('kek');
           docsearch({
             appId: 'BH4D9OD16A',
             apiKey: 'c6f9366f6f7fe057ee3e01747b603d9f',
@@ -1212,10 +1213,21 @@
             inputSelector: selector,
             algoliaOptions: { facetFilters: ["version:" + version] },
             autocompleteOptions: { hint: false, appendTo: 'body'},
-            transformItems(items) {
-              console.debug(items);
+            transformData: function (hits) {
+              console.log('transformData', hits);
 
-              return items;
+              return hits.map((hit) => ({
+                ...hit,
+                url: hit.url.replace('https://ru.vuejs.org/', 'https://random-rage.github.io/ru.vuejs.org/'),
+              }));
+            },
+            transformItems(items) {
+              console.log('transformItems', items);
+
+              return items.map((item) => ({
+                ...item,
+                url: item.url.replace('https://ru.vuejs.org/', 'https://random-rage.github.io/ru.vuejs.org/'),
+              }));
             },
           })
         })

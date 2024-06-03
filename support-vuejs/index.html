@@ -386,9 +386,6 @@ window.addEventListener('hashchange', function () {
   <a href="https://www.storyblok.com" target="_blank" rel="noopener">
     <img src="https://sponsors.vuejs.org/images/storyblok.png">
   </a>
-  <a href="https://ionicframework.com/vue?utm_source=partner&utm_medium=referral&utm_campaign=vuesponsorship&utm_content=vuedocs" target="_blank" rel="noopener">
-    <img src="https://sponsors.vuejs.org/images/ionic.png?v2">
-  </a>
   <a href="https://skilled.yashio-corp.com" target="_blank" rel="noopener">
     <img src="https://sponsors.vuejs.org/images/skilled.svg">
   </a>
@@ -510,6 +507,9 @@ window.addEventListener('hashchange', function () {
   <a href="https://www.stormlikes.net/buy-instagram-followers" target="_blank" rel="noopener">
     <img src="https://sponsors.vuejs.org/images/buy_instagram_followers_stormlikes.png">
   </a>
+  <a href="https://insfollowpro.com" target="_blank" rel="noopener">
+    <img src="https://sponsors.vuejs.org/images/insfollowpro.png">
+  </a>
 </p>
 
 <h3 id="patreon-silver">Серебряные спонсоры</h3>
@@ -608,6 +608,7 @@ window.addEventListener('hashchange', function () {
           // search index defaults to v2
           var match = window.location.pathname.match(/^\/(v\d+)/)
           var version = match ? match[1] : 'v2'
+          console.log('kek');
           docsearch({
             appId: 'BH4D9OD16A',
             apiKey: 'c6f9366f6f7fe057ee3e01747b603d9f',
@@ -615,10 +616,21 @@ window.addEventListener('hashchange', function () {
             inputSelector: selector,
             algoliaOptions: { facetFilters: ["version:" + version] },
             autocompleteOptions: { hint: false, appendTo: 'body'},
-            transformItems(items) {
-              console.debug(items);
+            transformData: function (hits) {
+              console.log('transformData', hits);
 
-              return items;
+              return hits.map((hit) => ({
+                ...hit,
+                url: hit.url.replace('https://ru.vuejs.org/', 'https://random-rage.github.io/ru.vuejs.org/'),
+              }));
+            },
+            transformItems(items) {
+              console.log('transformItems', items);
+
+              return items.map((item) => ({
+                ...item,
+                url: item.url.replace('https://ru.vuejs.org/', 'https://random-rage.github.io/ru.vuejs.org/'),
+              }));
             },
           })
         })

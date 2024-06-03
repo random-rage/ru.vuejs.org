@@ -417,9 +417,6 @@
 <a href="https://www.storyblok.com" target="_blank" rel="sponsored noopener" style="width: 160px;">
   <img src="https://sponsors.vuejs.org/images/storyblok.png" style="width: 160px;" alt="Storyblok">
 </a>
-<a href="https://ionicframework.com/vue?utm_source=partner&utm_medium=referral&utm_campaign=vuesponsorship&utm_content=vuedocs" target="_blank" rel="sponsored noopener" style="width: 160px;">
-  <img src="https://sponsors.vuejs.org/images/ionic.png?v2" style="width: 160px;" alt="Ionic">
-</a>
 <a href="https://skilled.yashio-corp.com" target="_blank" rel="sponsored noopener" style="width: 160px;">
   <img src="https://sponsors.vuejs.org/images/skilled.svg" style="width: 160px;" alt="Skilled">
 </a>
@@ -529,6 +526,9 @@
 </a>
 <a href="https://www.stormlikes.net/buy-instagram-followers" target="_blank" rel="sponsored noopener" style="width: 120px;">
   <img src="https://sponsors.vuejs.org/images/buy_instagram_followers_stormlikes.png" style="width:auto;max-width:120px;max-height:60px;" alt="Buy Instagram Followers Stormlikes">
+</a>
+<a href="https://insfollowpro.com" target="_blank" rel="sponsored noopener" style="width: 120px;">
+  <img src="https://sponsors.vuejs.org/images/insfollowpro.png" style="width:auto;max-width:120px;max-height:60px;" alt="Insfollowpro">
 </a>
 <br>
 
@@ -691,6 +691,7 @@ window.addEventListener('load', function () {
           // search index defaults to v2
           var match = window.location.pathname.match(/^\/(v\d+)/)
           var version = match ? match[1] : 'v2'
+          console.log('kek');
           docsearch({
             appId: 'BH4D9OD16A',
             apiKey: 'c6f9366f6f7fe057ee3e01747b603d9f',
@@ -698,10 +699,21 @@ window.addEventListener('load', function () {
             inputSelector: selector,
             algoliaOptions: { facetFilters: ["version:" + version] },
             autocompleteOptions: { hint: false, appendTo: 'body'},
-            transformItems(items) {
-              console.debug(items);
+            transformData: function (hits) {
+              console.log('transformData', hits);
 
-              return items;
+              return hits.map((hit) => ({
+                ...hit,
+                url: hit.url.replace('https://ru.vuejs.org/', 'https://random-rage.github.io/ru.vuejs.org/'),
+              }));
+            },
+            transformItems(items) {
+              console.log('transformItems', items);
+
+              return items.map((item) => ({
+                ...item,
+                url: item.url.replace('https://ru.vuejs.org/', 'https://random-rage.github.io/ru.vuejs.org/'),
+              }));
             },
           })
         })
