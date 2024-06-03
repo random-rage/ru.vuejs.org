@@ -432,7 +432,12 @@
             indexName: 'vuejs_ru',
             inputSelector: selector,
             algoliaOptions: { facetFilters: ["version:" + version] },
-            autocompleteOptions: { hint: false, appendTo: 'body'}
+            autocompleteOptions: { hint: false, appendTo: 'body'},
+            transformItems(items) {
+              console.debug(items);
+
+              return items;
+            },
           })
         })
 
